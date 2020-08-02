@@ -1,0 +1,16 @@
+#
+# Standard Maven .gitignore
+#
+target/
+
+#
+# IntelliJ
+#
+*.iml
+.idea/*
+!.idea/runConfigurations/
+
+#
+# jEdit
+#
+*~
