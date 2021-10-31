@@ -25,6 +25,13 @@
     <maven-site-plugin.version>3.9.1</maven-site-plugin.version>
   </properties>
 
+  <distributionManagement>
+     <repository>
+       <id>github-maven-parent</id>
+       <url>https://maven.pkg.github.com/thesvistun/maven-parent</url>
+     </repository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
